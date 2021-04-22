@@ -1,21 +1,10 @@
-
-import './App.css';
+import "./App.css";
+import Container from "./container/Container";
 
 function App() {
-
-const initialState = {
-  boards:[
-    {
-      no:1,
-      writer:'gambi',
-      title:''
-    }
-  ]
-}
-
   return (
     <div className="App">
-     
+      <Container />
     </div>
   );
 }
